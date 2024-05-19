@@ -65,6 +65,55 @@ for (let i = 1; i <= 10; i++) {
     document.write(`<p>${numberTable} x ${i} = ${result}</p>`);
 }
 
+// Q6
 
+let fahrenheit =+prompt("Enter temperature in <sup>o</sup>C")
+let conver2=(fahrenheit-32)*5/9
+document.write(`<p>${fahrenheit}<sup>o</sup>C is ${conver2}<sup>o</sup>F</p>`)
+let celsius =+prompt("Enter temperature in <sup>o</sup>F")
+let conver1=(celsius-9/5)+32
+document.write(`<p>${celsius}<sup>o</sup>F is ${conver1}<sup>o</sup>C</p>`);
 
+// Q7
+let ppOf1 =650
+let ppOf2 =350
+let qtyOf1 =3
+let qtyOf2 =4
+let shippingCharge =100
+let total =(ppOf1*qtyOf1)+(ppOf2*qtyOf2)+shippingCharge
 
+document.write(`<p>Price of item 1 is ${ppOf1}</p>`)
+document.write(`<p>Quantity of item 1 is ${qtyOf1}</p>`)
+document.write(`<p>Price of item 2 is ${ppOf2}</p>`)
+document.write(`<p>Quantity of item 2 is ${qtyOf2}</p>`)
+document.write(`<p>Shipping charges is ${shippingCharge}</p>`)
+document.write(`<p>Total amount is ${total}</p>`)
+
+// Q8
+document.write(`<h1>Marksheet</h1>`)
+
+let totalMarks =500
+let obtainedMarks =+prompt("enter your marks out of 500")
+let percent=(obtainedMarks/totalMarks)*100
+document.write(`<p>Total Marks ${totalMarks}</p>`)
+document.write(`<p>Marks obtained ${obtainedMarks}</p>`)
+document.write(`<p>Percentage is ${percent}%</p>`)
+
+//Q9
+let dollars=+prompt("Amount of dollars USD")
+let riyal=+prompt("Amount of Riyal SAR")
+let pkrUSD =104.80
+let pkrSAR =28
+let totalPKR = (dollars*pkrUSD)+(riyal*pkrSAR)
+
+document.write(`<p>Total currrency in PKR is: ${totalPKR}Rs</p>`)
+
+//Q10
+let newNum =+prompt("Enter a random no.")
+let addition =5
+let multi =10
+let division =2
+let myNewNum = newNum+addition*multi/division
+document.write(`<p>${myNewNum}</p>`)
+
+//Q11
