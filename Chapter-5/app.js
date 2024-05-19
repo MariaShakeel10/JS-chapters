@@ -114,6 +114,6 @@ let addition =5
 let multi =10
 let division =2
 let myNewNum = newNum+addition*multi/division
-document.write(`<p>${myNewNum}</p>`)
+document.write(`<p>Random No. IS${myNewNum}</p>`)
 
 //Q11
