@@ -67,20 +67,20 @@ for (let i = 1; i <= 10; i++) {
 
 // Q6
 
-let fahrenheit =+prompt("Enter temperature in <sup>o</sup>C")
-let conver2=(fahrenheit-32)*5/9
+let fahrenheit = +prompt("Enter temperature in <sup>o</sup>C")
+let conver2 = (fahrenheit - 32) * 5 / 9
 document.write(`<p>${fahrenheit}<sup>o</sup>C is ${conver2}<sup>o</sup>F</p>`)
-let celsius =+prompt("Enter temperature in <sup>o</sup>F")
-let conver1=(celsius-9/5)+32
+let celsius = +prompt("Enter temperature in <sup>o</sup>F")
+let conver1 = (celsius - 9 / 5) + 32
 document.write(`<p>${celsius}<sup>o</sup>F is ${conver1}<sup>o</sup>C</p>`);
 
 // Q7
-let ppOf1 =650
-let ppOf2 =350
-let qtyOf1 =3
-let qtyOf2 =4
-let shippingCharge =100
-let total =(ppOf1*qtyOf1)+(ppOf2*qtyOf2)+shippingCharge
+let ppOf1 = 650
+let ppOf2 = 350
+let qtyOf1 = 3
+let qtyOf2 = 4
+let shippingCharge = 100
+let total = (ppOf1 * qtyOf1) + (ppOf2 * qtyOf2) + shippingCharge
 
 document.write(`<p>Price of item 1 is ${ppOf1}</p>`)
 document.write(`<p>Quantity of item 1 is ${qtyOf1}</p>`)
@@ -92,28 +92,58 @@ document.write(`<p>Total amount is ${total}</p>`)
 // Q8
 document.write(`<h1>Marksheet</h1>`)
 
-let totalMarks =500
-let obtainedMarks =+prompt("enter your marks out of 500")
-let percent=(obtainedMarks/totalMarks)*100
+let totalMarks = 500
+let obtainedMarks = +prompt("enter your marks out of 500")
+let percent = (obtainedMarks / totalMarks) * 100
 document.write(`<p>Total Marks ${totalMarks}</p>`)
 document.write(`<p>Marks obtained ${obtainedMarks}</p>`)
 document.write(`<p>Percentage is ${percent}%</p>`)
 
 //Q9
-let dollars=+prompt("Amount of dollars USD")
-let riyal=+prompt("Amount of Riyal SAR")
-let pkrUSD =104.80
-let pkrSAR =28
-let totalPKR = (dollars*pkrUSD)+(riyal*pkrSAR)
+let dollars = +prompt("Amount of dollars USD")
+let riyal = +prompt("Amount of Riyal SAR")
+let pkrUSD = 104.80
+let pkrSAR = 28
+let totalPKR = (dollars * pkrUSD) + (riyal * pkrSAR)
 
 document.write(`<p>Total currrency in PKR is: ${totalPKR}Rs</p>`)
 
 //Q10
-let newNum =+prompt("Enter a random no.")
-let addition =5
-let multi =10
-let division =2
-let myNewNum = newNum+addition*multi/division
-document.write(`<p>Random No. IS${myNewNum}</p>`)
+let newNum = +prompt("Enter a random no.")
+let addition = 5
+let multi = 10
+let division = 2
+let myNewNum = newNum + addition * multi / division
+document.write(`<p>Random No. is ${myNewNum}</p>`)
 
 //Q11
+document.write(`<h1>AGE CALCULATOR</h1>`)
+let currentYear = 2024
+let birthYear = +prompt("Enter your birth year")
+let age = currentYear - birthYear
+let age2 = currentYear - birthYear - 1
+document.write(`<p>Your age is ${age} or ${age2}</p>`)
+
+//Q12
+document.write(`<h1>THE GEOMETRIZER</h1>`)
+let radius = +prompt("Enter radius of a circle")
+let circumference = 2*3.142*radius
+let area =3.142*(radius*radius)
+document.write(`<p>Radius of circle ${radius}</p>`)
+document.write(`<p>Circumference of a circle is ${circumference}</p>`)
+document.write(`<p>Area is ${area}</p>`)
+
+//Q13
+document.write(`<h1>LIFE TIME SUPPLY CALCULATOR</h1>`)
+let favSnack =prompt("favSnack")
+let currentAge =+prompt("current age")
+let estimatedAge =+prompt("estimated age")
+let amountPerDay =+prompt("how many you eat")
+let totalConsume = (estimatedAge-currentAge)*365
+document.write(`<p>Favourite Snack : ${favSnack}</p>`)
+document.write(`<p>Age : ${currentAge}</p>`)
+document.write(`<p>Estimated Age : ${estimatedAge}</p>`)
+document.write(`<p>Amount Per Day : ${amountPerDay}</p>`)
+document.write(`<p>You will need${totalConsume}${favSnack}to last you until ripe old age of${estimatedAge}</p>`)
+
+
