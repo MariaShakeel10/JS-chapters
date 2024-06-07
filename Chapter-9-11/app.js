@@ -112,10 +112,10 @@ else {
 
 // ...................result
 
-document.write(`<p>Obtained Marks: ${totalMarks} <p>`);
-document.write(`<p> Total Marks: 300<p>`);
-document.write(`<p> Percentage: ${percent.toFixed(2)} <p<p>>`</p>);
-document.write(`<p> Grade: ${grade}<p>`);
+document.write(`<p>Obtained Marks: ${totalMarks} </p>`);
+document.write(`<p> Total Marks: 300</p>`);
+document.write(`<p> Percentage: ${percent.toFixed(2)} </p>`);
+document.write(`<p> Grade: ${grade}</p>`);
 
 //Q7
 let secretNum = 7
@@ -124,30 +124,30 @@ if (secretNum === userNum) {
     document.write(`Bingo!Correct`)
 }
 else if (secretNum === ++userNum) {
-    document.write(`<p>Close enough to the correct answer.</p>`)
+    document.write(`<p>Close enough to the correct answer``)
 }
 else {
-    document.write(`<p>Try Again</p>`)
+    document.write(`<p>Try Agai``)
 }
 
 //Q8
 let newUserNum = +prompt("Enter a no.")
 let calculate = newUserNum / 3
 if (0 === calculate) {
-    document.write(`<p>Your no. is divisible by 3</p>`)
+    document.write(`<p>Your no. is divisible by ``)
 }
 else {
-    document.write(`<p>your no. isn't divisible by 3</p>`)
+    document.write(`<p>your no. isn't divisible by ``)
 }
 
 //Q9
 let userInp1 = +prompt("Enter a no.")
 let num1 = userInp1 / 2
 if (0 === num1) {
-    document.write(`<p>even no.</p>`)
+    document.write(`<p>even no``)
 }
 else {
-    document.write(`<p>odd no.</p>`)
+    document.write(`<p>odd no``)
 }
 
 //Q10
