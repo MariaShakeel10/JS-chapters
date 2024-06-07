@@ -124,30 +124,30 @@ if (secretNum === userNum) {
     document.write(`Bingo!Correct`)
 }
 else if (secretNum === ++userNum) {
-    document.write(`<p>Close enough to the correct answer``)
+    document.write(`<p>Close enough to the correct answer`)
 }
 else {
-    document.write(`<p>Try Agai``)
+    document.write(`<p>Try Again </p>`)
 }
 
 //Q8
 let newUserNum = +prompt("Enter a no.")
 let calculate = newUserNum / 3
 if (0 === calculate) {
-    document.write(`<p>Your no. is divisible by ``)
+    document.write(`<p>Your no. is divisible by `)
 }
 else {
-    document.write(`<p>your no. isn't divisible by ``)
+    document.write(`<p>your no. isn't divisible by `)
 }
 
 //Q9
 let userInp1 = +prompt("Enter a no.")
 let num1 = userInp1 / 2
 if (0 === num1) {
-    document.write(`<p>even no``)
+    document.write(`<p>even no `)
 }
 else {
-    document.write(`<p>odd no``)
+    document.write(`<p>odd no. </p>`)
 }
 
 //Q10
