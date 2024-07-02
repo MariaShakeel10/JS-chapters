@@ -78,10 +78,35 @@ colors.splice(indexToDelete, numberOfColorsToDelete);
 console.log("Final Array after deleting colors:", colors);
 
 //10
-let arr2=[320,230,480,120]
-let sorted =arr2.sort()
-document.write(`Score of students:${arr2}`)
-document.write(`Order Score of students:${sorted}`)
+let arr2 = [320, 230, 480, 120]
+let sorted = arr2.sort()
+document.write(`<p>Score of students:${arr2}</p>`)
+document.write(`<p>Order Score of students:${sorted}</p>`)
+//11
+let cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"]
+let selectedCities = cities.slice(2, 4)
+document.write(`<p>Cities list:<br>${cities}</p>`)
+document.write(`<p>Selected Cities list:<br>${selectedCities}</p>`)
+//12
+var arr = ["This ", "is ", "my ", "cat"];
+var newArr =arr.join(" ")
+document.write(`<p>Array:<br>${arr}</p>`)
+document.write(`<p>String:<br>${newArr}</p>`)
+//13
+//14
+//15
+
+let phoneManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+let html = '<select id="phoneManufacturers">\n';
+phoneManufacturers.forEach(function(manufacturer) {
+    html += `\t<option value="${manufacturer}">${manufacturer}</option>\n`;
+});
+html += '</select>';
+document.write(html);
+
+
+
+
 
 
 
