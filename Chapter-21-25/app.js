@@ -118,9 +118,9 @@ var universityArray = university.split(' ');
 
 document.write(universityArray);
 //17
-let userInput = prompt("Enter a string: ");
+let userInput6 = prompt("Enter a string: ");
 
-let lastCharacter = userInput.charAt(userInput.length - 1);
+let lastCharacter = userInput6.charAt(userInput.length - 1);
 
 alert("Last character: " + lastCharacter);
 //18
