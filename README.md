@@ -25,4 +25,4 @@
 # Chapter 31-34
 [https://669a820d0171185b2bb7cd6b--quiet-frangollo-e688ff.netlify.app/](url)
 # Chapter34-42
-[https://66a11871414460469888597d--darling-kleicha-6941f2.netlify.app/?authuser=0](url)
+[https://66a11871414460469888597d--darling-kleicha-6941f2.netlify.app/](url)
