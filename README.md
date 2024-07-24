@@ -24,3 +24,5 @@
 [https://669145bdfed8a33c97ec82ec--fabulous-genie-0e0306.netlify.app/?authuser=0](url)
 # Chapter 31-34
 [https://669a820d0171185b2bb7cd6b--quiet-frangollo-e688ff.netlify.app/](url)
+# Chapter 34-42
+[https://66a11871414460469888597d--darling-kleicha-6941f2.netlify.app/](url)
