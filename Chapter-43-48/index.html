@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 43-48</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2.5rem;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #120042;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .body2 {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .counter-container {
+            text-align: center;
+        }
+
+        .counter {
+            font-size: 2em;
+            margin: 20px;
+        }
+
+        .button2 {
+            font-size: 1em;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .button2:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+</head>
+
+<body style="color: aqua;background-color: black;">
+    <!-- 1 -->
+    <div onclick="alert('Hello World!')">Click to reveal..</div>
+    <!-- 2 -->
+    <div>
+        <h1>Purchase your fav potrait</h1>
+    </div>
+    <div style="display: flex;justify-content: space-evenly;align-items: center;">
+        <div onclick="alert('Thanks for purchasing')"><img src="1.png" alt="" width="35%"></div>
+        <div onclick="alert('Thanks for purchasing')"><img src="2.png" alt="" width="35%"></div>
+        <div onclick="alert('Thanks for purchasing')"><img src="3.png" alt="" width="35%"></div>
+    </div>
+    <!--3  -->
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>15</td>
+                <td>10</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>14</td>
+                <td>9</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Mike Johnson</td>
+                <td>16</td>
+                <td>11</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Emily Davis</td>
+                <td>15</td>
+                <td>10</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Chris Lee</td>
+                <td>17</td>
+                <td>12</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Amy Brown</td>
+                <td>14</td>
+                <td>9</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>David Wilson</td>
+                <td>16</td>
+                <td>11</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Sarah White</td>
+                <td>15</td>
+                <td>10</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>James Brown</td>
+                <td>17</td>
+                <td>12</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Olivia Harris</td>
+                <td>14</td>
+                <td>9</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- 4 -->
+    <div>
+        <img src="2.png" alt="" id="img" onmouseover="change(event)" onmouseout="reset(event)">
+    </div>
+    <!-- 5 -->
+    <div class="body">
+        <div class="counter-container">
+            <div id="counter" class="counter">0</div>
+            <button class="button2" onclick="decrease()">-</button>
+            <button class="button2" onclick="increase()">+</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
